@@ -1,0 +1,14 @@
+{
+  "id": "nadeemahmad003/day-6-cpu-vs-gpu-inference-benchmark",
+  "title": "Day 6 CPU vs GPU Inference Benchmark",
+  "code_file": "kaggle_gpu_benchmark.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}
