@@ -1,0 +1,6 @@
+# Platform Pricing & Tier Structures
+The Enterprise Tier subscription costs 499 USD per month and includes unlimited API predictions and 24/7 dedicated support.
+The Standard Tier subscription costs 49 USD per month with a quota of 100,000 API calls.
+Free Tier includes up to 1,000 API inferences per month at zero cost.
+Volume discounts apply for annual commitments exceeding 10 million API predictions.
+Overage billing is charged at 0.0005 USD per additional request.

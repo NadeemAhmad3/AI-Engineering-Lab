@@ -1,0 +1,6 @@
+# Information Security & Compliance Policy
+Multi-factor authentication (MFA) is strictly required for all internal production database access.
+API keys and secrets must be rotated every 90 days or immediately upon team member departure.
+All customer data stored at rest must be encrypted using AES-256 encryption.
+SOC 2 Type II compliance audits are conducted annually by independent accredited auditors.
+Data retention policies dictate that customer log data is purged after 180 days.

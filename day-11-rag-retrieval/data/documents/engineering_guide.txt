@@ -1,0 +1,6 @@
+# Engineering Standards & Architecture Guide
+All microservices must expose a GET /health endpoint for Kubernetes liveness and readiness probes.
+Database connection pools must enforce a maximum connection lifetime of 30 minutes to prevent socket leaks.
+Code coverage in pull requests must remain above 85 percent for core business modules.
+Deployment pipelines mandate automated integration testing and vulnerability security scanning.
+API endpoints should enforce rate limiting using Redis token bucket algorithm.

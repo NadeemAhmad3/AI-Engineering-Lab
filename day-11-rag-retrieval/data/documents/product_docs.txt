@@ -1,0 +1,6 @@
+# Product Documentation & API References
+The REST API accepts JSON payloads with Content-Type application/json.
+Authentication uses Bearer Tokens passed in the Authorization HTTP header.
+Webhooks deliver real-time event notifications for completed inference batch jobs.
+SDK support includes Python, TypeScript, and Go client libraries.
+Rate limit responses return HTTP 429 status code with Retry-After headers.
