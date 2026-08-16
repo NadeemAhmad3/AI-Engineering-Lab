@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "type": "supported",
+    "query": "What is the maximum annual leave allowance?",
+    "context": "The maximum annual leave allowance for full-time employees is 25 days per calendar year.",
+    "ground_truth_claims": ["Maximum annual leave is 25 days per year"],
+    "answerable": true
+  },
+  {
+    "id": 2,
+    "type": "supported",
+    "query": "What encryption standard is used for data at rest?",
+    "context": "All customer data stored at rest must be encrypted using AES-256 encryption.",
+    "ground_truth_claims": ["Data at rest is encrypted with AES-256"],
+    "answerable": true
+  },
+  {
+    "id": 3,
+    "type": "unsupported",
+    "query": "How many office locations does the company have in Europe?",
+    "context": "Remote work is allowed up to 3 days per week with manager approval.",
+    "ground_truth_claims": ["Company has 5 European offices"],
+    "answerable": false
+  },
+  {
+    "id": 4,
+    "type": "unsupported",
+    "query": "What is the company stock ticker symbol?",
+    "context": "The Enterprise Tier subscription costs 499 USD per month.",
+    "ground_truth_claims": ["Stock ticker symbol is AIEN"],
+    "answerable": false
+  },
+  {
+    "id": 5,
+    "type": "contradictory",
+    "query": "How many users does the Enterprise plan support?",
+    "context": "The Enterprise plan supports up to 1,000 users. However, custom enterprise arrangements allow 5,000 users.",
+    "ground_truth_claims": ["Enterprise plan supports 1000 users"],
+    "answerable": true
+  },
+  {
+    "id": 6,
+    "type": "unanswerable",
+    "query": "What is the CEO personal mobile phone number?",
+    "context": "Whistleblower protection policies guarantee anonymous reporting of workplace issues.",
+    "ground_truth_claims": ["CEO phone number is unknown"],
+    "answerable": false
+  },
+  {
+    "id": 7,
+    "type": "supported",
+    "query": "What HTTP status code is returned when rate limited?",
+    "context": "Rate limit responses return HTTP 429 status code with Retry-After headers.",
+    "ground_truth_claims": ["HTTP 429 is returned when rate limited"],
+    "answerable": true
+  },
+  {
+    "id": 8,
+    "type": "supported",
+    "query": "How much equipment stipend do new hires receive?",
+    "context": "Equipment stipends provide 1000 USD for home office setup for new hires.",
+    "ground_truth_claims": ["New hires receive 1000 USD equipment stipend"],
+    "answerable": true
+  }
+]
