@@ -1,0 +1,28 @@
+{
+  "mode": "v2_optimized",
+  "questions_count": 6,
+  "retrieval": {
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "precision_at_5": 0.3333
+  },
+  "generation": {
+    "correctness": 1.0,
+    "relevance": 1.0,
+    "faithfulness": 0.88
+  },
+  "performance": {
+    "p50_ms": 4.95,
+    "p95_ms": 6.39,
+    "p99_ms": 6.49,
+    "avg_tokens": 42.3,
+    "cost_per_1k_usd": 0.1347
+  },
+  "categories": {
+    "Factual": 1.0,
+    "Multi-hop": 1.0,
+    "Unanswerable": 1.0,
+    "Ambiguous": 1.0,
+    "Long-context": 1.0
+  }
+}

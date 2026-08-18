@@ -1,0 +1,50 @@
+[
+  {
+    "id": "q001",
+    "category": "Factual",
+    "question": "What is the maximum annual leave allowance?",
+    "expected_answer": "25 days per calendar year",
+    "expected_doc": "hr_policy.txt",
+    "answerable": true
+  },
+  {
+    "id": "q002",
+    "category": "Factual",
+    "question": "What encryption standard is required for stored customer data at rest?",
+    "expected_answer": "AES-256 encryption",
+    "expected_doc": "security_policy.txt",
+    "answerable": true
+  },
+  {
+    "id": "q003",
+    "category": "Multi-hop",
+    "question": "What rate limit status code and algorithm are enforced by microservices?",
+    "expected_answer": "HTTP 429 status code with Redis token bucket algorithm",
+    "expected_doc": "product_docs.txt",
+    "answerable": true
+  },
+  {
+    "id": "q004",
+    "category": "Unanswerable",
+    "question": "What is the company founder personal residential address?",
+    "expected_answer": "Unknown",
+    "expected_doc": "company_policy.txt",
+    "answerable": false
+  },
+  {
+    "id": "q005",
+    "category": "Ambiguous",
+    "question": "How much does the subscription cost?",
+    "expected_answer": "499 USD for Enterprise or 49 USD for Standard Tier",
+    "expected_doc": "pricing.txt",
+    "answerable": true
+  },
+  {
+    "id": "q006",
+    "category": "Long-context",
+    "question": "What are the rules for travel expense reimbursements, equipment stipends, and remote work?",
+    "expected_answer": "Travel receipts within 30 days, 1000 USD equipment stipend, 3 days remote work per week",
+    "expected_doc": "company_policy.txt",
+    "answerable": true
+  }
+]
